@@ -15,12 +15,6 @@ Concise, merged feature list combining Hello Fresh meal-kit, ordering, and perso
   - Ingredient lists, step-by-step instructions, cooking time, difficulty, per-serving nutrition, and health score impact.
 - Grocery & Shopping Lists
   - Auto-generated shopping lists, add/remove items, add scanned products, sync with carts or partner retailers.
-- Delivery Scheduling & Tracking
-  - Choose delivery windows, track shipment status and ETA updates; support retail partner deep-links.
-- Subscription & Order Management
-  - Pause, skip, modify, or cancel deliveries; manage plan tiers and payment methods.
-- In-App Payments & Commerce Flows
-  - Secure checkout, multiple payment methods, promo codes, stored payment info, add-to-cart flows for partners.
 
 ## Product Analysis & Scanning (Yuka-style)
 - Barcode-first UX & Packaged-Product Database
