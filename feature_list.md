@@ -136,15 +136,7 @@ Below are implementation-oriented specifications for the unified Hello Fresh + Y
    - Priority: High.  
    - Metrics: add-to-cart via partner rate, average basket value, partner conversion.
 
-7) Subscription, Orders, Delivery Scheduling & Tracking  
-   - User stories: Manage weekly deliveries, choose slots, track courier status, pause/skip orders.  
-   - Acceptance criteria: Users can view/update upcoming deliveries within cutoff rules and see real-time tracking.  
-   - UI components: Subscription dashboard, upcoming deliveries list, delivery tracker map/ETA.  
-   - Data / APIs: Orders service, slot booking endpoints, courier webhooks; support CRON rules for cutoffs.  
-   - Priority: Must-have.  
-   - Metrics: churn rate, average delivery exceptions, scheduling conflicts.
-
-8) Personalization & Nutrition Impact Tracking  
+7) Personalization & Nutrition Impact Tracking  
    - User stories: Users set diet goals and see cumulative impact (daily/weekly) of meals and scanned products.  
    - Acceptance criteria: Dashboard shows calories/macros per day, progress to goals, and aggregated health-score trends.  
    - UI components: Nutrition dashboard, goal setup wizard, timeline of health-score changes.  
@@ -152,7 +144,7 @@ Below are implementation-oriented specifications for the unified Hello Fresh + Y
    - Priority: High.  
    - Metrics: DAU for dashboard, retention lift from personalization.
 
-9) Scan History, Favorites, Crowdsourced Corrections & Moderation  
+8) Scan History, Favorites, Crowdsourced Corrections & Moderation  
    - User stories: Keep a history of scans, allow bookmarking, and let users submit corrections (with moderation).  
    - Acceptance criteria: Users can access past scans, submit edits, and see moderation status. Admins can review and publish changes.  
    - UI components: Scan history list, report/edit form, moderation queue UI for admins.  
@@ -160,20 +152,20 @@ Below are implementation-oriented specifications for the unified Hello Fresh + Y
    - Priority: Medium.  
    - Metrics: edit submission volume, accuracy improvements post moderation, moderation SLA.
 
-10) Trust, Transparency & Help (Methodology Docs)  
+9) Trust, Transparency & Help (Methodology Docs)  
     - User stories: Users can understand how scores are computed and where data comes from.  
     - Acceptance criteria: Accessible methodology page that documents scoring logic, algorithm versions, and data sources. In-app changelog when scoring algorithm updates.  
     - UI components: Methodology docs page, in-product "why this score" links, version banner when algorithms change.  
     - Priority: Must-have (for credibility). 
     - Metrics: doc views, support tickets related to scoring.
 
-11) Security, Privacy, Compliance & Logging  
+10) Security, Privacy, Compliance & Logging  
     - Requirements: Biometric login, secure tokens (OAuth2 / JWT), encrypted PII, data retention policies, consent UI, audit logs for product edits.  
     - Acceptance criteria: Pen-test pass, GDPR/CCPA consent flows implemented, audit logs available in admin.  
     - Priority: Must-have.  
     - Metrics: security incidents, consent opt-in %, data access audit counts.
 
-12) Admin, Analytics & Operational Tooling  
+11) Admin, Analytics & Operational Tooling  
     - Needs: Admin UI for menu/product edits, moderation, DB health, analytics dashboard for product DB coverage, user engagement, feature adoption.  
     - Acceptance criteria: Admins can publish/unpublish products/meals, view moderation queue, run DB syncs, and view analytics KPIs.  
     - Priority: Must-have for ops.  
